@@ -4,10 +4,12 @@
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "dependencies": {
+    "@babel/preset-typescript": "^7.12.7",
     "@rollup/plugin-babel": "^5.0.0",
     "rollup-plugin-sourcemaps": "^0.6.2"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
     "@rollup/plugin-commonjs": "^11.0.1",
     "@rollup/plugin-node-resolve": "^7.0.0",
     "@rollup/plugin-typescript": "^4.1.2",
